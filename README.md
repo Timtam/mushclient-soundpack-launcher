@@ -13,6 +13,10 @@ Any user who wants to create a soundpack for whatever mud needs to copy this pro
 
 This launcher also offers all the advanced programming functionalities you'd expect. It bundles a LuaJIT with FFI included, which enables you to access external libraries if needed.
 
-It also bundles ssl support as well as threading support, using the [llthreads library[(https://github.com/Neopallium/lua-llthreads).
+It also bundles ssl support as well as threading support, using the [llthreads library](https://github.com/Neopallium/lua-llthreads).
 
 The [penlight library](https://github.com/stevedonovan/Penlight) is included too, which extends the lua standard library with class-like tables and functionalities which enable pythonic programming, just in Lua.
+
+# Troubleshooting
+
+If some users have problems launching the MUSHclient.exe file because Windows isn't able to find some required files, advice them to install the vcredist_x86.exe and vcredist_x64.exe files which are bundled with this launcher. This should fix all problems. If this doesn't help, create an issue or contact me via email.
